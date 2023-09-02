@@ -33,7 +33,7 @@ class Presenter {
         }
     }
 
-    fun attachView(view: MainActivity) {
+    fun attachView(view: CounterView) {
         this.view = view
     }
 }
